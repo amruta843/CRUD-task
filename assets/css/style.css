@@ -1,0 +1,47 @@
+body{
+    
+    height: 100vh;
+
+    background-image: url("https://images.unsplash.com/photo-1678266956488-578a061d069d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    background-position: center;
+   background-repeat: no-repeat;
+background-size: cover;
+}
+/* .signInBox{
+    height: 100vh;
+} */
+.form-group input:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 5px 5px rgb(255, 166, 0);
+}
+
+#stdInfoContainer .fa-solid{
+font-size: 1.25rem;
+margin: 0 !important;
+cursor: pointer;
+}
+
+#stdInfoContainer .edit{
+    color: blue;
+}
+#stdInfoContainer .edit:hover{
+    color:green;
+
+}
+#stdInfoContainer .delete {
+    color: orangered;
+}
+#stdInfoContainer .delete:hover {
+    color:brown;
+}
+
+
+.btn:hover{
+    /* background: rgb(184, 35, 104);
+    border-radius: 5px solid white; */
+    background-color: aqua;
+    box-shadow: 0 0 10px 10px rgb(202, 230, 235);
+    color: black;
+    font-weight: bold;
+
+}

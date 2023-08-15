@@ -73,7 +73,7 @@ const OnstdDelete= (ele) =>{
   let deleteId=ele.closest("tr").id
   cl(deleteId);
 
-  let deletedValue = document.getElementById(deleteId);
+  let deletedValue = document.getElementById(deleteId).firstElementChild.innerHTML;
 
   let confirmDelete= confirm(`Are you sure, to delete the record  ${deletedValue}?`)
 
